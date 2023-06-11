@@ -116,16 +116,16 @@
             let email = document.getElementById('user_email').value;
             let phone = document.getElementById('user_phone').value;
 
-            if (name.lenght < 3) {
+            if (name.lenght < 5) {
                 doscument.getElementById('error').innerText = 'Ошибка в имени';
                 return;
             }
-            if (email.lenght < 9) {
+            if (email.lenght < 5) {
                 document.getElementById('error').innerText = 'Ошибка в email';
                 return;
             }
 
-            if (phone.lenght < 11) {
+            if (phone.lenght < 5) {
                 document.getElementById('error').innerText = 'Ошибка в номере телефона';
                 return;
             }
