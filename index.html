@@ -117,16 +117,16 @@
             let phone = document.getElementById('user_phone').value;
 
             if (name.length < 5) {
-                doscument.getElementById('user_name').innerText = 'Ошибка в имени';
+                doscument.getElementById('error').innerText = 'Ошибка в имени';
                 return;
             }
             if (email.length < 5) {
-                document.getElementById('user_email').innerText = 'Ошибка в email';
+                document.getElementById('error').innerText = 'Ошибка в email';
                 return;
             }
 
             if (phone.length < 5) {
-                document.getElementById('user_phone').innerText = 'Ошибка в номере телефона';
+                document.getElementById('error').innerText = 'Ошибка в номере телефона';
                 return;
             }
 
